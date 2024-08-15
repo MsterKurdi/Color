@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenar{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+ 
+  height: 100%;
+}
+.colors{
+    padding: 0px 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+}
+li{
+   display: inline;
+}
+button{
+    padding: 30px;
+    background: rgb(4, 3, 234);
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    transition: 0.9s;
+    outline: none;
+    border: none;
+}
+button:hover{
+background: #123;
+cursor: pointer;
+}
+h1{
+background: rgb(0, 0, 0);
+color: black;
+font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
